@@ -61,7 +61,9 @@ class Main{
     public static void main(String[] args) {
         MyThread mt1 = new MyThread("初级用户",10);
         MyThread mt2 = new MyThread("高级用户",30);
+        MyThread mt3 = new MyThread("特高级用户",50);
         mt1.start();
         mt2.start();
+        mt3.start();
     }
 }
